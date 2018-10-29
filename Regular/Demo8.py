@@ -1,0 +1,15 @@
+
+import re
+s1 = input("Enter a String  : ")
+res = re.findall(r"@\w+",s1)
+print(res)
+print("-----------------")
+res = re.findall(r"@\w+.",s1)
+print(res)
+print("-----------------")
+res = re.findall(r"@\w+.\w",s1)
+print(res)
+print("-----------------")
+res = re.findall(r"@\w+.\w+",s1)
+print(res)
+print("-----------------")
